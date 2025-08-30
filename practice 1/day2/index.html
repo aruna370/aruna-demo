@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <h1>day2</h1>
+    <form>
+    <fieldset>
+        <legend>name</legend>
+        <label for="firstname">firstname</label>
+        <input type="text"name="firstname" id="firstname"><br>
+        <label for="lastname">lastname</label></fieldset>
+        <fieldset>
+        <legend>course</legend>
+        <input type="text"name="lastname"id="lastname"><br>
+        <label for="course">course</label>
+        <select id="course"name="course">
+    
+            <option value="1">fronted</option>
+        <option value="2">backend</option>
+       <option value="3">fullstack</option>
+        </select><br>
+        <label for="skills">skills for master</label>
+        <select id="skills"name="skills">
+            <option>select</option>
+            <optgroup label="fronted">
+                        <option value="1">html</option>
+                        <option value="2">css</option>
+                        <option value="3">python</option>
+
+
+            </optgroup >
+            <optgroup label="backend">
+          <option value="4">fullstack</option>
+          <option value="5">backend</option>
+         <option value="6">java</option>
+        <option value="7">mongodb</option>
+            </optgroup></fieldset>
+        <br>
+        <fieldset>
+            <input type="radio"name="substribe" id="substribe" value="yes">
+
+            <label for="substribe">substribe</label>
+            <label for="tshitcolor">tshitcolor</label>
+            <input type="color"name="tshitcolor"id="tshitcolor"><br>
+            <input type="email">
+            <input type="datetime-local" name="appointment"id="appointment">
+            <input type="file">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button></fieldset>
+        <fieldset>
+        <textarea rows="10"cols="30">special....</textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
